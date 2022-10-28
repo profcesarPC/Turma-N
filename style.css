@@ -1,7 +1,15 @@
-body {height: 100%;
+body 
+{height: 100%;
 margin: 0;}
 
-.bg {background-image: "banner.jpg"}
+.bg {
+    background-image:url("banner.jpg");
+    background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+
+}
+
 h1 {text-align: center}
 h2 {text-align: center}
 h3 {text-align: center}
