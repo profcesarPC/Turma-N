@@ -1,4 +1,7 @@
-body {background-image: banner.jpg}
+body {height: 100%;
+margin: 0;}
+
+.bg {background-image: url (banner.jpg)}
 h1 {text-align: center}
 h2 {text-align: center}
 h3 {text-align: center}
