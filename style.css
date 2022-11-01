@@ -1,16 +1,20 @@
 body 
 {height: 100%;
 margin: 0;
-background: #CCCCCC;}
+}
 
 .bg {
 	background-image:url("banner.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
+	
 }
 
-h1 {text-align: center}
+h1 {
+	text-align: center;
+	background: #CCCCCC;
+}
 h2 {text-align: center}
 h3 {text-align: center}
 
