@@ -8,7 +8,7 @@ font-family: Arial, 'Sega';
 
 
 .bg {
-	background-image:url("banner.jpg");
+	background-image:url("img/banner.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -17,12 +17,12 @@ font-family: Arial, 'Sega';
 
 @font-face {
 	font-family: 'pressstart2pvav7webfont';
-    src: url('pressstart2pvav7webfont.eot');
-    src: url('pressstart2pvav7webfont.eot') format('embedded-opentype'),
-         url('pressstart2pvav7webfont.woff2') format('woff2'),
-         url('pressstart2pvav7webfont.woff') format('woff'),
-         url('pressstart2pvav7webfont.ttf') format('truetype'),
-         url('pressstart2pvav7webfont.svg#pressstart2pvav7webfont') format('svg');
+    src: url('fonts/pressstart2pvav7webfont.eot');
+    src: url('fonts/pressstart2pvav7webfont.eot') format('embedded-opentype'),
+         url('fonts/pressstart2pvav7webfont.woff2') format('woff2'),
+         url('fonts/pressstart2pvav7webfont.woff') format('woff'),
+         url('fonts/pressstart2pvav7webfont.ttf') format('truetype'),
+         url('fonts/pressstart2pvav7webfont.svg#pressstart2pvav7webfont') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -31,7 +31,7 @@ font-family: Arial, 'Sega';
 h1 {
 	text-align: center;
 	font-family: 'pressstart2pvav7webfont';
-	font-size: 30px;
+	font-size: 35px;
 	background-color: bisque;
 	color:rgb(165, 42, 42);
 
@@ -53,9 +53,10 @@ p {
 
 img {
 	border-radius: 10%;
-	
+	border: 20px solid rgb(60, 164, 196);
 		
 }
+
 
 .coluna{
 	float: right;
